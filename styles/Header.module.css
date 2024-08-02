@@ -1,0 +1,42 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #141414;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+
+.logo {
+  flex: 1;
+}
+
+.logoImage {
+  height: 30px;
+}
+
+.nav {
+  display: flex;
+  gap: 20px;
+  flex: 2;
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.icons {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.profileIcon {
+  width: 30px;
+  border-radius: 50%;
+}

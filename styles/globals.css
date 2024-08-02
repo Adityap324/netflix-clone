@@ -1,0 +1,53 @@
+/* styles/globals.css */
+body {
+  margin: 0;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: #141414;
+  color: #fff;
+}
+
+h1 {
+  color: #e50914;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.movie-item {
+  position: relative;
+  margin: 10px;
+  width: 150px;
+  text-align: center;
+}
+
+.movie-item img {
+  width: 100%;
+  border-radius: 8px;
+  transition: transform 0.2s;
+}
+
+.movie-item img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.movie-title {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.header {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
